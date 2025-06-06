@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries Informations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = mainContainer>
+        <div id="firstContainer">
+            <label id="selectCountryLabel" >Select Country</label><br>
+            <select name="CountrySelect" id="countrySelect" onchange="clearResult()">
+                <option value="">--Select a Country--</option>
+            </select><br>
+            <textarea name="Result" id="outputResultBox" placeholder="Your Result shown here...."></textarea>
+            <div id="buttonContainer">
+                <button id="population" class="commonButton" onclick="displayInfo('population')">Population</button>
+                <button id="currency" class="commonButton" onclick="displayInfo('currency')">Currency</button>
+                <button id="flag" class="commonButton" onclick="displayInfo('flag')">Flag</button>
+                <button id="clear" class="commonButton" onclick="clearResult(true)">Clear</button>   
+            </div>
+            <div id="flagImageDisplay">
+                <img src="" alt="flagImage" id="flagImage">
+            </div>
+        </div>
+    </div>
+    <script src="task.js"></script>
+</body>
+</html>

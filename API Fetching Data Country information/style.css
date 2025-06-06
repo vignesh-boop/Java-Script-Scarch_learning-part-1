@@ -1,0 +1,88 @@
+
+#firstContainer{
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    height: auto;
+    width: 400px;
+    padding: 20px;
+    /* margin-left: 35%;
+    margin-top: 15%; */
+    justify-content: stretch;
+    border-radius: 10px;
+    border: 2px;
+    box-shadow: 5px 0px 3px lightslategrey , -5px 0px 3px lightskyblue,0px 5px 3px coral,0px -5px 3px yellow;
+    
+}
+#flagImage{
+    height: 150px;
+    width: 380px;
+}
+#flagImageDisplay{
+    overflow: auto;
+}
+#buttonContainer{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding :10px;
+}
+.commonButton{
+    font-size: 15px;
+    border-radius: 6px;
+    padding : 6px;
+    font-size: 18px;
+    background-color: lightsteelblue;
+    border: none;
+    box-shadow: 4px 3px 10px orangered;
+}
+#clear{
+    background-color:lightcoral;
+}
+#outputResultBox{
+    font-size: 1.5pc;
+    height: 60px;
+    border-radius: 6px;
+    padding: 6px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 3px solid lightblue;
+}
+#outputResultBox::placeholder{
+    color: white;
+    font-style: oblique;
+}
+
+#countrySelect{
+    border: none;
+    border-radius: 4px;
+    font-size: 1pc;
+    height: 30px;
+    width: 18pc;
+    padding: 4px;
+    border: 2px solid yellow;
+    background-color: transparent;
+    color:peru;
+    
+    
+}
+#selectCountryLabel{
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+}
+body{
+    background-color: beige;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-vector/work-map-network-technology-lines-background_1017-31180.jpg?ga=GA1.1.1731398270.1749183628&semt=ais_items_boosted&w=740");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
